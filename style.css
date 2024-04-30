@@ -73,6 +73,8 @@ header {
 
 #how-to-buy {
     position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 .how-to-buy-img {
@@ -80,7 +82,6 @@ header {
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
 }
 
 .how-content {
@@ -92,6 +93,7 @@ header {
     color: #fff;
     font-weight: 900;
     padding-bottom: 20px;
+    /* margin-bottom: 120px; */
 
 }
 
@@ -113,6 +115,35 @@ header {
     max-width: 300px;
 }
 
+#community {
+    padding: 100px 0;
+    background-color: #731414;
+    color: #fff;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.telegram {
+    color: #0088cc;
+    position: relative;
+    z-index: 1;
+}
+
+.telegram::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: -1;
+}
+
 
 @media (min-width:999px) {
     .container {
@@ -121,9 +152,9 @@ header {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     #how-to-buy {
-        background: linear-gradient(.1turn, #a1060e 70%, #ea9498);
+        background: linear-gradient(.1turn, #7f000e 70%, #ea9498);
     }
 }
 
