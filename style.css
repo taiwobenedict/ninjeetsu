@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Genos:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+body {
+  font-family: "Coming Soon", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* Header */
+header {
+    background-color: #731414;
+    color: #fff;
+    border-bottom: 1px #fff solid;
+}
+
+.logo {
+    max-width: 130px;
+}
+
+.toggler,
+.nav-link {
+    font-size: 25px;
+    color: #fff;
+    padding-right: 2rem !important;
+    transition: 0.4s;
+}
+
+.toggler:hover,
+.nav-link:hover {
+    color: #f50101;
+}
+
+.buy-now {
+    background-color: #f50101;
+    font-size: 1rem;
+    padding: 10px 40px;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.buy-now:hover {
+    background-color: #fff;
+    color: #f50101;
+    border-color: #f50101;
+    
+}
+
+.section-1 {
+    background-color: #a1060e;
+    color: #fff;
+    padding: 100px 0;
+
+}
+
+.side-content {
+    font-size: 900;
+    line-height: 2.5;
+    font-size: 1.5rem;
+}
+
+.side-img {
+    max-width: 500px;
+}
