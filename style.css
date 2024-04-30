@@ -70,3 +70,10 @@ header {
 .side-img {
     max-width: 500px;
 }
+
+
+@media (min-width:999px) {
+    .container {
+        max-width: 1500px !important;
+    }
+}
